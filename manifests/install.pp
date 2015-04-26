@@ -10,7 +10,7 @@ class screen::install
 ) inherits screen::params
 {
     package { 'screen-screen':
-        name => "${::screen::params::package_name}",
         ensure => $ensure,
+        name   => $::screen::params::package_name,
     }
 }

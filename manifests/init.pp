@@ -24,7 +24,7 @@ class screen
 ) inherits screen::params
 {
 
-    class { 'screen::install':
+    class { '::screen::install':
         ensure => $ensure,
     }
 }

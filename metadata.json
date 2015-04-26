@@ -1,0 +1,11 @@
+{
+  "name": "puppetfinland-screen",
+  "version": "0.2.1",
+  "author": "Puppet-Finland team",
+  "license": "BSD license",
+  "summary": "Setup GNU screen",
+  "source": "https://github.com/Puppet-Finland/screen.git",
+  "project_page": "https://github.com/Puppet-Finland/screen",
+  "dependencies": [
+  ]
+}
